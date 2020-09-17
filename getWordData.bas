@@ -23,7 +23,7 @@ Set myDoc = wdApp.Documents.Open(Filename:=myFolder & "\" & strFile, AddToRecent
 With myDoc
 j = 0
 For Each CCtl In .ContentControls
-If CCtl.Tag = "Export" Then
+        If CCtl.Tag = "TagToExport" Then
 j = j + 1
 myWkSht.Cells(i, j) = CCtl.Range.Text
 Else
