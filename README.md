@@ -1,2 +1,6 @@
 # WordCCTagsExportToExcel
-Export specifically Tagged content controlled data to excel
+
+#### Export Information from content controlled tagged sections of a word document
+
+
+
